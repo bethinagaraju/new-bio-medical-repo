@@ -14,10 +14,14 @@ import ProtectedRoute from './components/ProtectedRoute';
 import TermsAndConditionsPage from './pages/TermsAndConditionsPage';
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
 import CookiePolicyPage from './pages/CookiePolicyPage';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <Router>
+
+    <ScrollToTop />
+
       <Routes>
 
         <Route path="/" element={<HomePage />} />
@@ -31,6 +35,7 @@ function App() {
         <Route path='/cookie-policy' element={<CookiePolicyPage />} />
         <Route path='/r0B01t26' element={<AdminLogin />} />
         <Route path="/abstracts" element={<ProtectedRoute><DisplayAbstracts /></ProtectedRoute>} />
+        <Route path="/agenda" element={<BiotechAgenda />} />
         
       </Routes>
 

@@ -158,15 +158,15 @@ const EndFooter: React.FC = () => {
     <div className="space-y-3">
       <div>
         <p><strong>General Enquiry</strong></p>
-        <p>secretary@theroboticssummit.com</p>
+        <p>secretary@roboticsaisummit.com</p>
       </div>
       <div>
         <p><strong>Marketing Enquiry</strong></p>
-        <p>sponsorship@theroboticssummit.com</p>
+        <p>sponsorship@roboticsaisummit.com</p>
       </div>
       <div>
         <p><strong>Sales Enquiry</strong></p>
-        <p>Delegate@theroboticssummit.com</p>
+        <p>Delegate@roboticsaisummit.com</p>
       </div>
     </div>
   </div>

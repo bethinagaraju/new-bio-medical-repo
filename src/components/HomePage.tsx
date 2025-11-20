@@ -20,6 +20,7 @@ import BiotechAgenda from './BiotechAgenda';
 import ConferenceDetails from './ConferenceDetails';
 import Overview from './Overview';
 import RegionChartComponent from './RegionChartComponent';
+import Agenda from './Agenda';
 
 
 function HomePage() {
@@ -39,11 +40,12 @@ function HomePage() {
 
       <Mixcomponents/>
       <RegionChartComponent/>
-      <Overview />
+      <Overview />0
+      <Agenda />
       {/* <SpeakersSection speakers={speakers} />
       <ExhibitingCompanies companies={companies} /> */}
       {/* <ConferenceDetails /> */}
-      <BiotechAgenda />
+      
       
       <EventOverview />
       {/* <ConferenceRegistration />

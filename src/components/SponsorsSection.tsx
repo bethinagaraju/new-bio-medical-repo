@@ -198,7 +198,7 @@ const SponsorsSection: React.FC = () => {
         style={{ fontFamily: "'Manrope', sans-serif", color: '#2e376c' }}
         className="text-center text-xl md:text-2xl font-bold mb-4"
       >
-        2025 SPONSORS
+        SPONSORS
       </h1>
 
       {visibleIndices.map((logoIndex) => (

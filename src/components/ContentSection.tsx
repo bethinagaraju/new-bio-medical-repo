@@ -46,7 +46,7 @@ const ContentSection: React.FC = () => {
 
               <div className="relative pb-[56.25%] h-0 overflow-hidden shadow-lg">
   <video
-    className="absolute top-0 left-0 w-full h-full object-cover"
+    className="absolute top-0 left-0 w-full h-full object-cover bg-white"
     src="/94be53a887684f6ead6a2a2fe9323a3f.mp4"
     controls
     autoPlay={true}

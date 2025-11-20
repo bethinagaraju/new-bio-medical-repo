@@ -15,11 +15,13 @@ const Header = () => {
           <div className="flex h-full items-center divide-x divide-gray-200">
             {/* Logo */}
             <div className="h-full flex items-center">
-              <img
-                src="aimllogo.jpg"
-                alt="Artificial Intelligence, Machine Learning and Robotics Conference Logo"
-                className="h-[70px] sm:h-[120px] w-auto object-contain transition-all duration-300"
-              />
+              <Link to="/">
+                <img
+                  src="aimllogo.jpg"
+                  alt="Artificial Intelligence, Machine Learning and Robotics Conference Logo"
+                  className="h-[70px] sm:h-[120px] w-auto object-contain transition-all duration-300"
+                />
+              </Link>
             </div>
 
             {/* Event Details (visible on sm and up) */}
@@ -88,9 +90,11 @@ const Header = () => {
           <a href="/#agenda-section" className="tracking-wider hover:text-gray-300 text-sm">
             AGENDA
           </a>
-          <a href="/#testimonial-section" className="tracking-wider hover:text-gray-300 text-sm">
-            TESTIMONIALS
-          </a>
+          <Link to="/agenda">
+            <a className="tracking-wider hover:text-gray-300 text-sm">
+              SESSIONS
+            </a>
+          </Link>
           <a href="/#event-overviewsection" className="tracking-wider hover:text-gray-300 text-sm">
             EVENT OVERVIEW
           </a>

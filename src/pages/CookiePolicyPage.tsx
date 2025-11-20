@@ -65,7 +65,7 @@ const CookiePolicyPage: React.FC = () => {
 
         <div className="mt-8 text-center text-gray-600">
           <p>Last Updated: October 16, 2025</p>
-          <p>For questions, contact us at <a href="mailto:secretary@theroboticssummit.com" className="text-blue-600 underline">secretary@theroboticssummit.com</a></p>
+          <p>For questions, contact us at <a href="mailto:secretary@roboticsaisummit.com" className="text-blue-600 underline">secretary@roboticsaisummit.com</a></p>
         </div>
       </section>
       {/* <Footer /> */}
