@@ -205,6 +205,8 @@ const EndFooter: React.FC = () => {
             <li>CAREERS</li> */}
             <li><Link to="/privacy-policy">PRIVACY POLICY</Link></li>
             <li><Link to="/cookie-policy">COOKIE POLICY</Link></li>
+            <li onClick={() => setVisibleLeft(true)}><Link>COOKIES SETTINGS</Link></li>
+            {/* <li>onClick={() => setVisibleLeft(true)}>COOKIES SETTINGS</li> */}
             {/* <li>COOKIES SETTINGS</li> */}
             <li><Link to="/terms-and-conditions">TERMS AND CONDITIONS</Link></li>
             {/* <li>CONTACT US</li> */}
