@@ -40,7 +40,7 @@ function HomePage() {
 
       <Mixcomponents/>
       <RegionChartComponent/>
-      <Overview />0
+      <Overview />
       <Agenda />
       {/* <SpeakersSection speakers={speakers} />
       <ExhibitingCompanies companies={companies} /> */}

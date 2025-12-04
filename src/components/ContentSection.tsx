@@ -44,15 +44,18 @@ const ContentSection: React.FC = () => {
           <div className="w-full">
 
 
-              <div className="relative pb-[56.25%] h-0 overflow-hidden shadow-lg">
+              <div className="relative pb-[52.5%] h-90 overflow-hidden shadow-lg">
   <video
-    className="absolute top-0 left-0 w-full h-full object-cover bg-white"
-    src="/94be53a887684f6ead6a2a2fe9323a3f.mp4"
+    // className="absolute top-0 left-0 w-full h-full object-cover bg-white border-4 border-green-600"
+    className="absolute top-0 left-0 w-full h-full object-cover"
+    // src="/94be53a887684f6ead6a2a2fe9323a3f.mp4"
+    src="/video-output-final.mp4"
     controls
     autoPlay={true}
     muted={true}
+    loop={true}
   >
-    Your browser does not support the video tag.
+    Your browser does not support the video.
   </video>
 
 </div>
